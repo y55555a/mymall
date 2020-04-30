@@ -5,7 +5,7 @@
 
     <parent>
         <groupId>com.y55555a</groupId>
-        <artifactId>mall</artifactId>
+        <artifactId>mymall</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
@@ -28,6 +28,12 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.swagger</groupId>
+            <artifactId>swagger-annotations</artifactId>
+            <version>1.5.22</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
